@@ -113,7 +113,7 @@ async def logo_gen(event):
         await telethn.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [˹ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ˼༗](https://t.me/KynanUserbot)",
+            caption="Logo by [Zoids](https://t.me/ZoidsXRobot_bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await telethn.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [˹ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ˼༗](https://t.me/KynanUserbot)",
+            caption="Logo by [Zoids](https://t.me/ZoidsXRobot_bot)",
             force_document=False,
         )
         os.remove(flnme)
