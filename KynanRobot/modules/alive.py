@@ -15,14 +15,14 @@ async def awake(_, message: Message):
     TEXT += f"┠➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
     TEXT += f"┠➣ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n"
     TEXT += "┗━━━━━━━━━━━━━━━━━━━━┛\n\n"
-    TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ ❤️**"
+    TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ**"
     BUTTON = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/ZoidsXRobot_bot?start=help"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Dunia_VirtualZ"),
         ],
         [
-            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/{OWNER_USERNAME}"),
+            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/EROR_404_NF"),
         ]
     ]
     await message.reply_photo(
