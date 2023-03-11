@@ -94,15 +94,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="❓ ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
+        InlineKeyboardButton(text="❓ ʙᴀɴᴛᴜᴀɴ", callback_data="Zoidssupport"
        ),
         InlineKeyboardButton(
-            text="ᴅᴏɴᴀsɪ 🎁", callback_data="kynan_own"
+            text="ᴅᴏɴᴀsɪ 🎁", callback_data="Eror_404_NF"
        ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅ➗", url="https://t.me/{BOT_USERNAME}?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/{BOT_USERNAME}?startgroup=true"
         ),
      ],
 ]
