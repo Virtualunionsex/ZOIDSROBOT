@@ -19,7 +19,7 @@ async def awake(_, message: Message):
     BUTTON = [
         [
             InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/ZoidsXRobot_bot?start=help"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Dunia_VirtualZ"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ZOIDsSupport"),
         ],
         [
             InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/EROR_404_NF"),
