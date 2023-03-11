@@ -63,7 +63,7 @@ if ENV:
         "START_IMG", "https://telegra.ph//file/b5fa050775543872ae0ec.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "kynansupport")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Zoidssupport")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
