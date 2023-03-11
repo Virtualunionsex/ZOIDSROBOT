@@ -415,7 +415,7 @@ def kynan_about_callback(update, context):
             "\n » /authusers - Periksa DAFTAR AUTH grup",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_notes":
@@ -430,7 +430,7 @@ def kynan_about_callback(update, context):
             "\n\n » /queue or /cqueue- Periksa Daftar Antrian Musik",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_support":
@@ -479,7 +479,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_")
+                    InlineKeyboardButton(text="«", callback_data="kynan_")
                  ]
                 ]
             ),
@@ -496,7 +496,7 @@ def kynan_about_callback(update, context):
                     InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/EROR_404_NF"),
                  ],
                  [
-                    InlineKeyboardButton(text="", callback_data="kynan_back"),
+                    InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
                  ]
                 ]
             ),
