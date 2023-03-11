@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/{OWNER_USERNAME}"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Eror_404_NF"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_CHAT}"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/{BOT_USERNAME}?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/ZoidsXRobot_bot?startgroup=true"
         ),
      ],
 ]
