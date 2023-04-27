@@ -8,7 +8,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/Onlymeriz/KynanRobot/blob/master/KynanRobot/resources/kynan.jpg">
+  <img src="https://github.com/ZoidsRobot/ZOIDSROBOT/blob/master/KynanRobot/resources/kynan.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [˹ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ˼༗](https://t.me/KynanUserbot)**_
