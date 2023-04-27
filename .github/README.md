@@ -3,7 +3,7 @@
 <h2 align="center">
 
  ┏━━━━━━━━━━━━━━
-   ˹ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ˼༗
+   Zᴏɪᴅs Rᴏʙᴏᴛ
  ┗━━━━━━━━━━━━━━
 </h2>
 
@@ -11,7 +11,7 @@
   <img src="https://github.com/ZoidsRobot/ZOIDSROBOT/blob/master/KynanRobot/resources/kynan.jpg">
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [˹ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ˼༗](https://t.me/KynanUserbot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Zᴏɪᴅs Rᴏʙᴏᴛ](https://t.me/Eror_404_NF)**_
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
