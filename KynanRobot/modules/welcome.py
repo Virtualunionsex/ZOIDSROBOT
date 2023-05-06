@@ -23,9 +23,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import FallenRobot
-import FallenRobot.modules.sql.welcome_sql as sql
-from FallenRobot import (
+import KynanRobot
+import KynanRobot.modules.sql.welcome_sql as sql
+from KynanRobot import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
