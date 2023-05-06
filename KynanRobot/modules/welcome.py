@@ -36,7 +36,7 @@ from KynanRobot import (
     WOLVES,
     dispatcher,
 )
-from FallenRobot.modules.helper_funcs.chat_status import (
+from KynanRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
