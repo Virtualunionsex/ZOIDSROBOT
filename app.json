@@ -1,5 +1,5 @@
 {
-      "name": "Kynan Robot",
+      "name": "Zoids Robot",
       "description": "Telegram Group Management Bot.",
       "logo": "https://telegra.ph//file/1d5a4b3398dc3cd1e3c0c.jpg",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/Onlymeriz/KynanRobot",
+   "repository": "https://github.com/ZoidsRobot/ZOIDSROBOT",
    "stack": "heroku-22",
    "addons": [
       {
