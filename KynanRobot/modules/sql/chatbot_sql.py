@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String
 
-from KynanRobot.modules.sql import BASE, SESSION
+from KynanRobot.modules.sql import BASE, SESSIONnnnn
 
 
 class FallenChats(BASE):
