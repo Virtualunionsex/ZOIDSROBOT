@@ -24,10 +24,10 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import KynanRobot.modules.sql.chatbot_sql as sql
-from GreyCilik import dispatcher
-from GreyCilik import BOT_ID, BOT_NAME, BOT_USERNAME
-from GreyCilik.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from GreyCilik.modules.log_channel import gloggable
+from KynanRobot import dispatcher
+from KynanRobot import BOT_ID, BOT_NAME, BOT_USERNAME
+from KynanRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from KynanRobot.modules.log_channel import gloggable
 
 
 @run_async
