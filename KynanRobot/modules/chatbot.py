@@ -24,9 +24,10 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import KynanRobot.modules.sql.chatbot_sql as sql
-from KynanRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
-from KynanRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from KynanRobot.modules.log_channel import gloggable
+from GreyCilik import dispatcher
+from GreyCilik import BOT_ID, BOT_NAME, BOT_USERNAME
+from GreyCilik.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from GreyCilik.modules.log_channel import gloggable
 
 
 @run_async
@@ -49,7 +50,7 @@ def fallenrm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "{} ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "{} ᴄʜᴀᴛʙᴏᴛ ᴅɪ ɴᴏɴᴀᴋᴛɪꜰᴋᴀɴ ᴏʟᴇʜ {}.".format(
                     dispatcher.bot.first_name, mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -78,7 +79,7 @@ def fallenadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "{} ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "{} ᴄʜᴀᴛʙᴏᴛ ᴅɪᴀᴋᴛɪꜰᴋᴀɴ ᴏʟᴇʜ {}.".format(
                     dispatcher.bot.first_name, mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -92,12 +93,12 @@ def fallenadd(update: Update, context: CallbackContext) -> str:
 @gloggable
 def fallen(update: Update, context: CallbackContext):
     message = update.effective_message
-    msg = "• ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴩᴛɪᴏɴ ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ"
+    msg = " sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ᴏᴘsɪ ᴜɴᴛᴜᴋ ᴅɪᴀᴋᴛɪꜰᴋᴀɴ ᴀᴛᴀᴜ ᴅɪɴᴏɴᴀᴋᴛɪꜰᴋᴀɴ ᴄʜᴀᴛʙᴏᴛ"
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="add_chat({})"),
-                InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="rm_chat({})"),
+                InlineKeyboardButton(text="ᴀᴋᴛɪꜰᴋᴀɴ", callback_data="add_chat({})"),
+                InlineKeyboardButton(text="ɴᴏɴᴀᴋᴛɪꜰᴋᴀɴ", callback_data="rm_chat({})"),
             ],
         ]
     )
@@ -110,7 +111,7 @@ def fallen(update: Update, context: CallbackContext):
 
 def fallen_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "fallen":
+    if message.text.lower() == "hikari":
         return True
     elif BOT_USERNAME in message.text.upper():
         return True
@@ -133,11 +134,20 @@ def chatbot(update: Update, context: CallbackContext):
         if not fallen_message(context, message):
             return
         bot.send_chat_action(chat_id, action="typing")
-        url = f"https://kora-api.vercel.app/chatbot/2d94e37d-937f-4d28-9196-bd5552cac68b/{BOT_NAME}/envparse/message={message.text}"
+        url =f"https://kora-api.vercel.app/chatbot/2d94e37d-937f-4d28-9196-bd5552cac68b/{BOT_NAME}/Anonymous/message={message.text}"
         request = requests.get(url)
         results = json.loads(request.text)
         sleep(0.5)
         message.reply_text(results["reply"])
+
+
+__help__ = f"""
+*Untuk mengaktifkan chatbot :*
+
+ »  /chatbot *:* Menampilkan panel kontrol chatbot
+"""
+
+__mod_name__ = "Cʜᴀᴛʙᴏᴛ"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
@@ -153,14 +163,6 @@ dispatcher.add_handler(ADD_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOTK_HANDLER)
 dispatcher.add_handler(RM_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOT_HANDLER)
-
-__help__ = f"""
-*{BOT_NAME} has an chatbot whic provides you a seemingless chatting experience :*
-
- ᐉ  /chatbot *:* Shows chatbot control panel
-"""
-
-__mod_name__ = "Chatbot"
 
 __handlers__ = [
     ADD_CHAT_HANDLER,
