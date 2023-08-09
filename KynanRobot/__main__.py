@@ -73,10 +73,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [🎉](https://telegra.ph/file/e684d81a846cb6a8369ef.jpg)
+*ʜᴇʟʟᴏ {} !* [🎉](https://te.legra.ph/file/c9419a431dfdfe6efcfad.jpg)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
-{} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
+{}ʟᴜғғʏ ʀᴏʙᴏᴛ ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
 ━━━━━━━━━━━━━━━━━━━━━━━━
 ➻ ᴜᴘᴛɪᴍᴇ » `{}`
 ➻ ᴜsᴇʀs » `{}`
@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Eror_404_NF"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/panggil_m"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/fairysupport"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/ZoidsXRobot_bot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/Luffy_XRobot_bot?startgroup=true"
         ),
      ],
 ]
@@ -492,8 +492,8 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/87cf5d0dc44bad8ddc9a8.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/EROR_404_NF"),
+                    InlineKeyboardButton(text="ϙʀɪs", url="https://te.legra.ph/file/3c154f5e50645ee769569.jpg"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/panggil_m"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
