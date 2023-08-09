@@ -8,7 +8,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/ZoidsRobot/ZOIDSROBOT/blob/master/KynanRobot/resources/kynan.jpg">
+  <img src="https://github.com/virtualunionsex/ZOIDSROBOT/blob/master/KynanRobot/resources/kynan.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Zᴏɪᴅs Rᴏʙᴏᴛ](https://t.me/Eror_404_NF)**_
